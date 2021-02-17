@@ -96,9 +96,13 @@
 }
 
 /* Settimo Esercizio */
+
+.ex-7-img {
+  transition: filter 1s linear
+
+}
 .ex-7-img:hover {
   filter: grayscale(1) sepia(1);
-  transition: filter 1s linear
 }
 
 /* Ottavo Esercizio */
@@ -110,16 +114,46 @@
   border-radius: 20px;
 }
 
+/* Nono Esercizio */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img{
+  transition: 1s linear
+}
+.ex-9-img:hover {
+  filter: grayscale(1) sepia(1);
+  border-radius: 20px;
+  transform: scale(1.5);
+}
+
+/* ------------------------------- */
+
+/* Decimo Esercizio */
+
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
 }
+
+@keyframes rotate {
+  100%{transform: rotate(360deg);}
+}
+
+/* Undicesimo Esercizio */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* Dodicesimo Esercizio */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
