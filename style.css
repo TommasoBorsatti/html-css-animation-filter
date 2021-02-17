@@ -195,3 +195,54 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white{
+  animation-name: top-step;
+  animation-duration: 2s;
+  animation-iteration-count: infinite
+}
+
+.ex-12-bottom-white{
+  animation-name: bottom-step;
+  animation-duration: 2s;
+  animation-iteration-count: infinite
+}
+
+
+@keyframes top-step{
+  50% {left:60%;}
+  100% {left:10%;}
+}
+
+@keyframes bottom-step{
+  50% {right:60%;}
+  100% {right:20%;}
+}
+
+/* Tredicesimo Esercizio */
+
+.ex-13-top-white{
+  animation-name: top-loop;
+  animation-duration: 3s;
+  animation-iteration-count: infinite
+}
+
+.ex-13-bottom-white{
+  animation-name: bottom-loop;
+  animation-duration: 3s;
+  animation-iteration-count: infinite
+}
+
+
+@keyframes top-loop{
+
+  25% {top: -10px; left: 100%;}
+  50% {top: 60px; left: 100%;}
+  75% {width:20px; top: 60px; left: -10%;}
+  100% {width:20px; top: -20px; left: -10%;}
+}
+
+/* @keyframes bottom-loop{
+  50% {right:60%;}
+  100% {right:20%;}
+} */
