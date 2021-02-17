@@ -152,6 +152,18 @@
     font-size: 60px;
 }
 
+.ex-11-icon:hover{
+  animation-name: counter-clock;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+@keyframes counter-clock {
+  75%{transform: rotate(270deg);}
+
+  100%{transform: rotate(0deg);}
+}
+
 /* Dodicesimo Esercizio */
 
 .ex-12-button, .ex-13-button {
